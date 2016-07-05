@@ -1,0 +1,26 @@
+{
+  "name": "quicksort",
+  "version": "1.0.0",
+  "description": "demostration of quicksort",
+  "main": "quicksort.js",
+  "scripts": {
+    "build": "rollup -c rollup.js",
+    "test": "npm run build && mocha"
+  },
+  "keywords": [
+    "quicksort",
+    "sort",
+    "algorithm",
+    "javascript"
+  ],
+  "author": "Tung Vu <me@tungv.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "lodash": "^4.13.1",
+    "rollup": "latest",
+    "rollup-plugin-buble": "^0.12.1",
+    "rollup-plugin-stub": "^1.1.0",
+    "rollup-watch": "^2.4.0"
+  }
+}
